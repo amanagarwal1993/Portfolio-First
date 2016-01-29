@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+body {
+    background-color: beige;
+    font-family: monospace;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    clear: both;
+}
+
+.topbar-fixed {
+    border-bottom: 1px solid #3C3737;
+    margin-bottom: -2px;
+    background-color: #3C3737;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.topbar-fixed .col-md-3 {
+    float: left;
+}
+
+.topbar-fixed h3 {
+    font-size: 20px;
+    color: #D2CCCC;
+}
+
+.topbar-fixed .col-md-5 {
+    float: right;
+}
+
+.topbar-fixed ul {
+    padding-top: 11px;
+}
+
+.topbar-fixed li {
+    padding-bottom: 10px;
+}
+
+.topbar-fixed a {
+    height: 35px;
+    padding-top: 8px;
+}
+
+.jumbotron {
+    border-bottom: 1px solid #E8E2E2;
+    background-color: #000;
+}
+
+.home {
+    margin-bottom: -2px;
+    border-bottom: 1px solid #E8E2E2;
+    background-color: #000;
+}
+
+canvas {
+    min-height: 100%;
+    width: 100%;
+    background-color:#000000;
+}
+
+.home-stuff {
+    min-height: 550px;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.home-stuff h1 {
+    font-weight: bold;
+    font-size: 120px;
+    color: beige;
+    opacity: 0.85;
+    margin-top: 100px;
+}
+
+.home-stuff h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: beige;
+}
+
+.home-stuff h3 {
+    font-family: 'Noto Sans SC';
+    color: #FFA700;
+}
+
+.home-stuff ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.home-stuff li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home-stuff a {
+    width: 80px;
+    background-color: rgba(189, 173, 130, 0.01);
+    color: aliceblue;
+}
+
+.about {
+    background-color: #D8D5B4;
+    min-height: 200px;
+}
+
+.about h2 {
+    font-weight: 800;
+}
+
+.about div {
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #D8D5B4;
+}
+
+.about .photos {
+    padding-top: 100px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.grid {
+    margin: -100px auto;
+    width: 100%;
+}
+
+.grid li {
+    opacity: 1;
+    padding: 2px;
+}
+
+.grid li img {
+    max-width: 100%;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.portfolio .thumbnail {
+    text-align: center;
+    border: 1px solid rgba(221, 221, 221, 0.1);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.portfolio .thumbnail img {
+    max-height: 290px;
+}
+
+.contact {
+    text-align: center;
+    height: 630px;
+    background-color: #EAC89A;
+    border: 1px solid rgba(128, 83, 25, 0.35)
+}
+
+
+.contact h1 {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-family: 'Open Sans Condensed';
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+.contact li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.contact a {
+    width: 130px;
+    background-color: #A71F1F;
+    color: aliceblue;
+    height: 40px;
+    padding-top: 9px;
+}
+
+span {
+    font-weight: bolder;
+    color: #4945DE;
+    font-size: 16px;
+    font-style: italic;
+}
