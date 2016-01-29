@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Aman Agarwal Portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/component.css"/>
+        <link rel="stylesheet" href="css/portfolio.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/starfield.js"></script>
+    </head>
+    
+    <body onload="start()" onclick="start()" onresize="resize()" onorientationchange="resize()" onmousedown="context.fillStyle='rgba(0,0,0,'+opacity+')'" onmouseup="context.fillStyle='rgb(0,0,0)'">
+        <div class="container-fluid">
+            
+            <div class="row topbar-fixed">
+                <div class="col-md-3">
+                    <h3>Aman Agarwal</h3>
+                </div>
+                <div class="col-md-5" role="navigation">
+                    <ul class="nav nav-pills pull-right">
+                        <li><a href="#scroll-home">Home</a></li>
+                        <li><a href="#scroll-about">About Me</a></li>
+                        <li><a href="#scroll-portfolio">My Swag</a></li>
+                        <li><a href="#scroll-contact">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            
+            <div class="row home" id="scroll-home">
+                <div class="col-md-12">
+                        <canvas id="starfield"></canvas>
+                        <div class="home-stuff">
+                        <h1>WELCOME, SPACEFARER</h1>
+                        <h2>My name is Aman.</h2>
+                        <h3>And my Chinese name is 言煜鹰.</h3>
+                        <ul class="social-buttons">
+                            <li><a class="btn btn-default" href="http://twitter.com/mngrwl" target="_blank">Twitter</a></li>
+                            <li><a class="btn btn-default" href="http://facebook.com/amanagarwal1993" target="_blank">Facebook</a></li>
+                            <li><a class="btn btn-default" href="http://www.linkedin.com/pub/aman-agarwal/66/b89/9a6" target="_blank">LinkedIn</a></li>
+                            <li><a class="btn btn-default" href="http://github.com/amanagarwal1993" target="_blank">GitHub</a></li>
+                        </ul>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="row about" id="scroll-about">
+                <div class="col-md-6 photos">
+                    <ul class="grid" id="grid">
+                        <li><img src="images/IMG_1615.JPG"></li>
+                        <li><img src="images/IMG_2130.JPG"></li>
+                        <li><img src="images/IMG_2725.JPG"></li>
+                        <li><img src="images/IMG_2667.JPG"></li>
+                        <li><img src="images/IMG_1007.JPG"></li>
+                        <li><img src="images/IMG_0707.JPG"></li>
+                        <li><img src="images/IMG_1686.JPG"></li>
+                        <li><img src="images/IMG_3624.JPG"></li>
+                        <li><img src="images/IMG_4219.JPG"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p class="about-me text-justify">
+                        I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India. I am a startup marketing and sales expert AND a front-end developer living in New Delhi, India.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row portfolio" id="scroll-portfolio">
+                <div class="col-md-12">
+                    <h2>My Swag</h2>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/1010382_637002466320768_535093212_n.jpg"/>
+                    <h3>Nervous System</h3>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/1044063_10151543442645963_946736055_n.jpg"/>
+                    <h3>KFC vs Ronald</h3>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/1044123_213763865442526_276745412_n.jpg"/>
+                    <h3>Elephant</h3>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/Green%20Valley,%20Switzerland.jpg"/>
+                    <h3>Green Valley</h3>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/537216_299590860171951_143214842_n.jpg"/>
+                    <h3>Vitruvian Man</h3>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <img class="img-responsive img-rounded" src="images/994269_208811935937719_319412991_n.jpg"/>
+                    <h3>Apple Peel</h3>
+                </div>
+            </div>
+            
+            <div class="row contact" id="scroll-contact">
+                <div class="col-md-12">
+                    <h1>Hit me up! Let's be homies.</h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="contact-me">
+                        <li><a class="btn btn-default" href="mailto:amanagarwal@gmx.com">Email</a></li>
+                        <li><a class="btn btn-default" href="http://github.com/amanagarwal1993" target="_blank">GitHub</a></li>
+                        <li><a class="btn btn-default" href="http://www.linkedin.com/pub/aman-agarwal/66/b89/9a6" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row">
+                <p class="text-center">Copyright 2015, Aman Agarwal. <span>HOLY SHIT, YOU ACTUALLY MANAGED TO SCROLL THIS FAR?</span></p>
+            </div>
+            
+        </div>
+        
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/AnimOnScroll.js"></script>
+        
+        <script>
+            $('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top - 60
+        }, 1000);
+    }
+
+});
+        </script>
+        
+        <script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			});
+		</script>
+    </body>
+    
+</html>
