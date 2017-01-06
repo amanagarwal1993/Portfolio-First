@@ -77,7 +77,8 @@ canvas {
 }
 
 .home-stuff h1 {
-    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
     font-size: 120px;
     color: beige;
     opacity: 0.85;
